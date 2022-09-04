@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var input = document.createElement('input');
         input.setAttribute('id', 'i' + i);
+        input.setAttribute('type', 'number');
 
         const ele = document.createElement("h1");
         ele.setAttribute('id', 'q' + i);
