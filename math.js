@@ -7,12 +7,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var div = document.createElement('div');
         div.setAttribute('id', "div" + i);
-
+//         level one
         var int1 = arrInt1[Math.floor(Math.random() * arrInt1.length)];
         var int2 = arrInt2[Math.floor(Math.random() * arrInt2.length)];
-        var int3 = arrInt1[Math.floor(Math.random() * arrInt1.length)];
-        var int4 = arrInt2[Math.floor(Math.random() * arrInt2.length)];
-        var int5 = int1*int2+int3*int4;
+        var int5 = int1*int2;
+        
+//         level two
+//         var int1 = arrInt1[Math.floor(Math.random() * arrInt1.length)];
+//         var int2 = arrInt2[Math.floor(Math.random() * arrInt2.length)];
+//         var int3 = arrInt1[Math.floor(Math.random() * arrInt1.length)];
+//         var int4 = arrInt2[Math.floor(Math.random() * arrInt2.length)];
+//         var int5 = int1*int2+int3*int4;
 
         var input = document.createElement('input');
         input.setAttribute('id', 'i' + i);
@@ -20,7 +25,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const ele = document.createElement("h1");
         ele.setAttribute('id', 'q' + i);
-        ele.innerHTML = int1 + " X " + int2 + " + " + int3 + " X " + int4;
+//         level one
+        ele.innerHTML = int1 + " X " + int2;
+//         level two
+//         ele.innerHTML = int1 + " X " + int2 + " + " + int3 + " X " + int4;
 
         div.appendChild(ele);
         div.appendChild(input)
