@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     var arrInt1 = [5,8,11,17,35];
-    var arrInt2 = [1,3,5,7,2,9,10,11,12,13,14,15,16,17,18,19,20];
+    var arrInt2 = [2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19];
 
     for (let i = 0; i < 91; i++) {
 
