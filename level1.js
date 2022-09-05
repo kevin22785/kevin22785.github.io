@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var arrInt1 = [5,8,11,17,35];
     var arrInt2 = [1,3,5,7,2,9,10,11,12,13,14,15,16,17,18,19,20];
 
-    for (let i = 0; i < 11; i++) {
+    for (let i = 0; i < 91; i++) {
 
         var div = document.createElement('div');
         div.setAttribute('id', "div" + i);
@@ -37,9 +37,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     let inputs = document.querySelectorAll("input");
-    for(var i = 0; i < 11; i++){
+    for(var i = 0; i < 91; i++){
         inputs[i].addEventListener('focusout',function(){
-            let p = 11
+            let p = 91
             for (let i = 0; i < p + 1; i++) {
                 console.log(document.getElementById("i" + i).value);
                 console.log(document.getElementById("a" + i).innerHTML);
