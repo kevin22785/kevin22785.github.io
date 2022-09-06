@@ -11,14 +11,10 @@ input {
     max-height: 50px;
     display: flex;
     margin-left: auto;
-    
 }
 
 div {
-    width: 330px;
+    width: 300px;
     display: flex;
     flex-direction: row;
-    /* background-color: antiquewhite; */
-    /* align-content: space-between; */
-    
 }

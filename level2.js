@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         input.setAttribute('id', 'i' + i);
         input.setAttribute('type', 'number');
 
-        const ele = document.createElement("h1");
+        const ele = document.createElement("h3");
         ele.setAttribute('id', 'q' + i);
 //         level one
         // ele.innerHTML = int1 + " X " + int2;
