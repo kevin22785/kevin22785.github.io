@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const ele = document.createElement("h3");
         ele.setAttribute('id', 'q' + i);
 
-        ele.innerHTML = int1 + " X " + int2 + " + " + int3 + " X " + int4 + " + " + int3 + " X " + int4;
+        ele.innerHTML = int1 + " X " + int2 + " + " + int3 + " X " + int4 + " + " + int5 + " X " + int6;
 
         div.appendChild(ele);
         div.appendChild(input)
